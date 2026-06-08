@@ -1,0 +1,14 @@
+{
+  "name": "vote-electronique-v2",
+  "version": "2.0.0",
+  "description": "Systeme de Vote Electronique V2 - MIAGE Cergy Pontoise",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sql.js": "^1.10.3"
+  }
+}
